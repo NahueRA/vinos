@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/css/style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <h2>Nombre:{{ productos.producto_nombre }}</h2>
+<p>Bodega:{{ productos.producto_bodega }}</p>
+<p>Variedad:{{ productos.producto_variedad}}</p>
+<p>Tamaño:{{ productos.producto_tamaño}}</p>
+<p>Precio:{{ productos.producto_precio}}</p>
+<p>Stock:{{ productos.producto_stock}}</p>
+<img src="{{productos.imagen}}" alt="">
+
+<a href="/productos/{{ productos._id }}/edit">Editar</a>
+
+<form action="/productos/{{ productos._id }}/delete" method="post">
+  <input type="hidden" name="_method" value="DELETE">
+  <button type="submit">Eliminar</button>
+</form>
+
+
+
+<a href="/productos">Volver al listado de productos</a>
+<h1>soy show</h1>
+</body>
+</html>

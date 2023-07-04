@@ -1,0 +1,102 @@
+body {
+  background-color: #99627A;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #C88EA7;
+  border-radius: 3px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #99627A;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #C88EA7;
+}
+
+
+.contenedorNav {
+  background-color: #99627A;
+
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem;
+
+}
+
+.UlContenedor {
+
+  background-color: #99627A;
+
+
+}
+
+.UlContenedor li a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "comic sans", sans-serif;
+
+}
+
+.contenedorNav ul {
+
+  align-content: space-around
+}
+
+.contenedorNav ul {
+
+  list-style-type: none;
+  /* Elimina los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.contenedorNav li {
+  margin-right: 50px;
+  justify-content: space-around
+    /* Agrega un margen derecho entre los elementos */
+}
