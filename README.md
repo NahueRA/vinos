@@ -1,2 +1,0 @@
-# vinotecataninos
-# PROYECTOFINAL
